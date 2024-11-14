@@ -1,0 +1,112 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 500px;
+    background-color: #0D0714;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: #15101C;
+    border: 1px solid #9E78CF;
+    border-radius: 4px;
+    color: white;
+}
+
+form button {
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #9E78CF;
+}
+
+form button img {
+    width: 24px;
+    height: 24px;
+}
+
+.all-to-do-wrapper, .compelited {
+    margin-top: 20px;
+}
+
+.all-to-do-wrapper h3, .compelited h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.count, .count-complited {
+    background-color: #007bff;
+    color: #15101C;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 12px;
+}
+
+.todo-wrapper, .compelited-wrapper {
+    list-style: none;
+    padding: 0;
+}
+
+.todo, .todo-complited {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #15101C;
+    color: #9E78CF;
+    border-radius: 4px;
+}
+
+.todo p, .todo-complited p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.todo div, .todo-complited div {
+    display: flex;
+    gap: 10px;
+}
+
+.btn1 {
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+}
+
+.btn1 img {
+    width: 20px;
+    height: 20px;
+}
